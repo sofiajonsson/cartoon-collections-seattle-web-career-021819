@@ -16,7 +16,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   if planeteer_calls.length >= 1
   array2 = []
   planeteer_calls.collect do |value|
-    array2.push("#{value}"!)
+    array2.push("#{value}!")
   end
   puts "#{array2.join(" ")}"
 end
