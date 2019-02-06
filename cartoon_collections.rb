@@ -13,13 +13,13 @@ def roll_call_dwarves(dwarf_names) # code an argument here
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  if planeteer_calls.length >= 1
   array2 = []
+  counter = 1 
   planeteer_calls.collect do |value|
-    array2.push("#{value}.upcase!")
-  end
-  puts array2
+array2.push(value.upcase)
+counter += 1 
 end
+puts "#{array2.join(" ")}"
 end 
 
 
