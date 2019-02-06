@@ -1,17 +1,15 @@
 def roll_call_dwarves(dwarf_names) # code an argument here
-dwarf_names = ["Doc", "Dopey", "Bashful", "Grumpy"]
-if dwarf_names.length>=1 
-  array2 = []
-  counter = 1 
-  dwarf_names.collect do |name|
-    array2.push("#{counter}. #{name}")
-        counter += 1 
-      end 
-      print "#{array2.join(" ")}"
-  end 
-
-  # Your code here
-end
+  dwarf_names = ["Doc", "Dopey", "Bashful", "Grumpy"]
+  if dwarf_names.length>=1 
+    array2 = []
+    counter = 1 
+    dwarf_names.collect do |name|
+      array2.push("#{counter}. #{name}")
+          counter += 1 
+        end 
+        print "#{array2.join(" ")}"
+    end 
+  end
 
 def summon_captain_planet# code an argument here
   # Your code here
@@ -27,16 +25,3 @@ def find_the_cheese# code an argument here
 end
 
 
-# def line (array)
-#   if array.length >= 1
-#     array2 = []
-#     counter = 1 
-#     array.each do |name|
-#         array2.push("#{counter}. #{name}")
-#         counter += 1 
-#       end 
-#       puts "The line is currently: #{array2.join(" ")}"
-#     else
-#       puts "The line is currently empty."
-#     end
-#   end
