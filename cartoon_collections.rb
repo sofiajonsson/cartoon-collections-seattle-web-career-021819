@@ -1,5 +1,9 @@
+dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+
+
+
 def roll_call_dwarves(dwarf_names) # code an argument here
-  dwarf_names = ["Doc", "Dopey", "Bashful", "Grumpy"]
   if dwarf_names.length>=1 
     array2 = []
     counter = 1 
@@ -22,8 +26,9 @@ def summon_captain_planet(array)
 end
 
 
-def long_planeteer_calls# code an argument here
-  
+def long_planeteer_calls(array)# code an argument here
+  array.any? do |array|
+    array.length>4
 end
 
 def find_the_cheese# code an argument here
