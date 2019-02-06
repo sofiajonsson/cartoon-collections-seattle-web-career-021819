@@ -18,7 +18,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls.collect do |value|
     array2.push("#{value}!")
   end
-  puts "#{array2.join(" ")}"
+  puts array2
 end
 end 
 
