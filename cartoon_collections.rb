@@ -8,7 +8,6 @@ if dwarf_names.length>=1
         counter += 1 
       end 
       print "#{array2.join(" ")}"
-    end
   end 
 
   # Your code here
