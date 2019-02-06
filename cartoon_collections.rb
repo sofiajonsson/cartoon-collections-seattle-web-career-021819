@@ -20,7 +20,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   end
   puts "#{array2.join(" ")}"
 end
-
+end 
 
 
 def long_planeteer_calls# code an argument here
