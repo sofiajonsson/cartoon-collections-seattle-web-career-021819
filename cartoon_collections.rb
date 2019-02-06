@@ -13,8 +13,11 @@ def roll_call_dwarves(dwarf_names) # code an argument here
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+  array2 = []
   planeteer_calls.collect do |value|
-    
+    array2.push("#{value}"!)
+  end
+  puts "#{array2.join(" ")}"
 end
 
 def long_planeteer_calls# code an argument here
@@ -26,4 +29,32 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
+# katz_deli = []
 
+# def line (array)
+#   if array.length >= 1
+#     array2 = []
+#     counter = 1 
+#     array.each do |name|
+#         array2.push("#{counter}. #{name}")
+#         counter += 1 
+#       end 
+#       puts "The line is currently: #{array2.join(" ")}"
+#     else
+#       puts "The line is currently empty."
+#     end
+#   end
+
+# def take_a_number(line, new_person)
+#   line.push(new_person)
+#   puts "Welcome, #{new_person}. You are number #{line.length} in line."
+# end
+
+# def now_serving(line)
+#   if line.length == 0 
+#     puts"There is nobody waiting to be served!"
+#   else
+#     puts "Currently serving #{line[0]}." 
+#     line.shift 
+#   end
+# end
