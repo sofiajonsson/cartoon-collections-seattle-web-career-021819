@@ -31,37 +31,9 @@ def long_planeteer_calls(array)# code an argument here
     array.length>4
 end
 end
-def find_the_cheese# code an argument here
+def find_the_cheese(cheese_types)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types.include?("cheese")
 end
 
-# katz_deli = []
-
-# def line (array)
-#   if array.length >= 1
-#     array2 = []
-#     counter = 1 
-#     array.each do |name|
-#         array2.push("#{counter}. #{name}")
-#         counter += 1 
-#       end 
-#       puts "The line is currently: #{array2.join(" ")}"
-#     else
-#       puts "The line is currently empty."
-#     end
-#   end
-
-# def take_a_number(line, new_person)
-#   line.push(new_person)
-#   puts "Welcome, #{new_person}. You are number #{line.length} in line."
-# end
-
-# def now_serving(line)
-#   if line.length == 0 
-#     puts"There is nobody waiting to be served!"
-#   else
-#     puts "Currently serving #{line[0]}." 
-#     line.shift 
-#   end
-# end
